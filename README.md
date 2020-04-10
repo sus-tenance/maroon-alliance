@@ -9,4 +9,4 @@ We currently support several commands-
 Then, to use it simply click ->
 - https://discordapp.com/api/oauth2/authorize?client_id=696961553018388490&permissions=604367937&scope=bot
 
-### For more information- contact lead dev @ stikcye@gmail.com
+### For more information on supporting or collaboration- contact lead dev @ stikcye@gmail.com
