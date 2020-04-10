@@ -58,9 +58,9 @@ class EVENTCOMMANDS(commands.Cog):
 
         # gets the data we need from the FIRST API in json form.
         rankings = requests.get('https://frc-api.firstinspires.org/v2.0/2020/rankings/' + event_code + '?',
-                                headers=headers, auth=(config.username, '9933C5D2-F724-428F-B4A6-6A8978A3F251')).json()
+                                headers=headers, auth=(config.username, config.password)).json()
         teams = requests.get('https://frc-api.firstinspires.org/v2.0/2020/teams?eventCode=' + event_code,
-                             headers=headers, auth=(config.username, '9933C5D2-F724-428F-B4A6-6A8978A3F251')).json()
+                             headers=headers, auth=(config.username, config.password)).json()
         amount_of_teams = teams['teamCountTotal']
         print(amount_of_teams)
 
