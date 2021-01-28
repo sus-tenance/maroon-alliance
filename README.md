@@ -9,4 +9,4 @@ We currently support several commands-
 If you want our bot to join your server, simply click ->
 - https://discordapp.com/api/oauth2/authorize?client_id=696961553018388490&permissions=604367937&scope=bot
 
-### For more information on supporting or collaboration- contact stikcye@gmail.com
+### For more information on supporting or collaboration- contact jacodlewis@gmail.com
